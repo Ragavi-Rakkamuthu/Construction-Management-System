@@ -1,0 +1,95 @@
+.footer{
+    margin-top: 5%;
+    background-color: rgb(93, 92, 92);
+    height: 500px;
+    justify-content: center;
+    /* margin-left: 50px; */
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.contact h4{
+    margin-left: 200px;
+}
+h4{
+    color:rgb(195, 171, 19);
+    font-size: 2.2rem;
+}
+p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:white;
+}
+span{
+    color:rgb(195, 171, 19);
+    font-weight: bold;
+}
+.rights{
+    margin-top:10%;
+}
+.email {
+    margin-left: 130px;
+    margin-bottom: 5px;
+    
+}
+/* .email hr{
+   
+    
+} */
+.phone{
+    margin-left: 200px;
+    margin-bottom: 5px;
+}
+.address{
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+.hradrs{
+    margin-left: 100px;
+    border-radius: 30px;
+    height: 2px;
+    width: 400px;
+    background-color:whitesmoke;
+}
+.hrmail{
+    margin-left: 160px;
+    border-radius: 30px;
+    height: 2px;
+    width: 250px;
+    background-color:whitesmoke;
+}
+.hrphone{
+    margin-left: 220px;
+    border-radius: 30px;
+    height: 2px;
+    width: 130px;
+    background-color:whitesmoke;
+}
+.logos ul{
+    width: 100%;
+    list-style: none ;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight:bold;
+    /* padding-right:30px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color:white;
+}
+.logos li{
+     padding-left: 10px;
+}
+.line{
+    margin-left: 10px;
+    height:20px;
+    width: 2px;
+    background-color:whitesmoke;
+}
+.logos ul li:hover{
+    color:rgb(195, 171, 19);
+    /* transform: scale(1.1); */
+}

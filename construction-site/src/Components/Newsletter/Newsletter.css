@@ -1,0 +1,45 @@
+.dad{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.mom{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px grey;
+    background-color: #3a3a3a;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.mom h4{
+    color: rgb(255, 217, 0);
+}
+.mom:hover{
+    width: 30%;
+    height: 500px;
+}
+.mom hr{
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 4px;
+    width: 55px;
+    background-color: rgb(195, 171, 19);
+}
+.mom p{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.icons1{
+    font-size: 100px;
+    color:rgb(254, 220, 0);
+    margin-bottom: 60px;
+}

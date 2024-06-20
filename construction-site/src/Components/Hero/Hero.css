@@ -1,0 +1,53 @@
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: pink; */
+    overflow-x:hidden ;
+}
+.hero ul{
+    padding: 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.hero ul img{
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+    width: 100vw;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    23%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    48%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    73%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    99%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0%)
+    }
+}
